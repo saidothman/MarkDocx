@@ -1,0 +1,37 @@
+{
+  "name": "mdtodoc",
+  "version": "1.0.0",
+  "description": "Native Windows React Native application to convert Markdown files to DOCX with animations",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "vite": "vite",
+    "build": "vite build",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "windows",
+    "markdown",
+    "docx",
+    "converter",
+    "electron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "docx": "^9.6.1",
+    "lucide-react": "^1.16.0",
+    "marked": "^15.0.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native-web": "^0.19.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^34.3.0",
+    "vite": "^8.3.4"
+  }
+}
